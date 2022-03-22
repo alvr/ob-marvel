@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="try_again">Try again</string>
+    <string name="loading_next_page_error">There was an error fetching the next page.</string>
+    <string name="search_characters">Search characters</string>
+    <string name="fetch_details_error">There was a problem fetching the details of the character.</string>
+    <string name="no_characters_found">No characters found</string>
+    <string name="extra_comic">Comics</string>
+    <string name="extra_event">Events</string>
+    <string name="extra_serie">Series</string>
+    <string name="extra_story">Stories</string>
+    <string name="extras">Extras</string>
+    <string name="no_extras_found">No extras found</string>
+</resources>

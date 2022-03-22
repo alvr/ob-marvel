@@ -1,0 +1,25 @@
+package dev.alvr.marvel.ui.characters.components
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
+
+@Composable
+internal fun CharacterImage(
+    image: String?,
+    title: String?,
+    modifier: Modifier = Modifier
+) {
+    AsyncImage(
+        modifier = modifier,
+        model = ImageRequest.Builder(LocalContext.current)
+            .data(image)
+            .crossfade(true)
+            .build(),
+        contentDescription = title,
+        contentScale = ContentScale.Crop,
+    )
+}
